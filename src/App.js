@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './nav'
+import LoginForm from './form'
+import Footer from './footer'
+import { ThemeConsumer } from 'react-bootstrap/esm/ThemeProvider';
+
+// Above imports necessary files for app to display/work StylePropertyMapReadOnly.  Below 
+// is the App itself which pulls its functions from each js file for Nav, LoginForm, and 
+// the Footer
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <LoginForm />
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
