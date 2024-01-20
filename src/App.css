@@ -64,7 +64,7 @@ a:hover {
 
 /* This links to a URL to set a background image for the app */
 .main {
-  background-image: url(https://pikwizard.com/pw/small/970c3e11ba8602759ec1e4a2ff5f9724.jpg);
+  background-image: url(../public/tulips.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
