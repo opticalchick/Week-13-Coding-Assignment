@@ -37,7 +37,8 @@ and layout for text */
   border-radius: 20px;
   margin: auto;
   margin-top: 50px;
-
+  display: block;
+  padding: 30;
 }
 
 /* This centers the header for the form and sets the font size to one other than default for an H3 tag */
